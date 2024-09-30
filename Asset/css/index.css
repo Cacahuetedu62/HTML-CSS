@@ -97,3 +97,10 @@ div{
     position:relative;
 }
 
+card-body{
+    background-color: red;
+}
+
+card shadow-xl{
+    background-color: red;
+}
