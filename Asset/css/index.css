@@ -34,10 +34,6 @@ nav ul {
     text-decoration: none; /* Supprime le soulignement */
   }
   
-  nav ul li a:hover {
-    background-color: #111; /* Couleur de fond au survol */
-  }
-  
 
 footer {
     background-image: url(/Asset/images/lum3n--RBuQ2PK_L8-unsplash.jpg);
