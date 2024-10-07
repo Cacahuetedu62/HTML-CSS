@@ -70,6 +70,12 @@ div a {
     top: 15px;
 }
 
+.photoProfilGitHub{
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+}
+
 
 
 article {
@@ -156,4 +162,10 @@ h2 {
 
 body {
   height: 100%;
+}
+
+.github{
+  width: 40px;
+  height: 40px;
+  
 }
