@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Playwrite DE Grund", cursive;
+    font-family: "Playwrite HU", system-ui;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
@@ -175,7 +175,7 @@ body {
 
 .clicgithub{
   background-color:#F2D5DC;
-  margin: 30px;
+  margin: 70px;
   height: 150px;
   width: 150px;
 }
@@ -229,3 +229,37 @@ font-style: normal;
   font-weight: normal;
   font-style: normal;
 }
+
+.contnair-parcours{
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  max-height: auto;
+  display:flex;
+  flex-wrap: wrap
+}
+
+.img-contnair{
+  border: 3px solid;
+  border-radius: 10px;
+  margin: 5px;
+  height: auto;
+  width: 80px;
+}
+
+.contnair-parcours-description{
+  margin:30px;
+  flex-direction: column
+  max-width: 100%;
+  max-height: auto;
+  
+}
+
+.text-box h2{
+font-size: 25px;
+}
+
+.text-box p{
+  font-size: 10px;
+  }
+  
