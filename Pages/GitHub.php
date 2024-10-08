@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <link href="bootstrap/css/bootstrap.min.css" ref="stylesheet"/>
-    <link rel="stylesheet" href="/Asset/css/index.css">
+<?php 
+require_once('Asset/templates/header.php')
+?>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
-
-</head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                  <li><a href="/Pages/mamusique.html">Me musique</a></li>
-                  <li><a href="/Pages/quisuisje.html">Qui suis-je ?</a></li>
-                  <li><a href="/Pages/GitHub.html">Mon GitHub </a></li>
-                  <li><a href="/Pages/portfolio.html">Mon portfolio</a></li>
-                </ul>
-              </nav>
-              </div>
-
-                    <img class="photoProfil" src="/Asset/images/femme_sourire.jpg" alt="mdo">
-            </header>
-        </div>
-
-    </style>
-</head>
 <body>
 <h1>Mon GitHub </h1>
 
@@ -50,18 +22,6 @@
 <section class="titre_instructions">Blablablablablablabla</section>
 
 
-
-</body>
-</html>
-
-    
-
-    <footer>
-        12 rue du prince Charles<br>
-        12 345 Village<br>
-        06 06 06 06 06
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
-        </body>
-        </html>
+<?php 
+require_once('Asset/templates/footer.php')
+?>
