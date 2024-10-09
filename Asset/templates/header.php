@@ -22,7 +22,7 @@
         <header>
             <nav>
                 <ul>
-                <li><a href="mecontacter.php">Me contacter</a></li>
+                <li><a href="mamusique.php">Me contacter</a></li>
                 <li><a href="quisuisje.php">Qui suis-je ?</a></li>
                 <li><a href="GitHub.php">Mon GitHub </a></li>
                 <li><a href="portfolio.php">Mon portfolio</a></li>

@@ -1,6 +1,7 @@
 <?php 
-require_once('Asset/templates/header.php')
-?>    
+require_once('Asset/templates/header.php');
+?>  
+
 
 <body>
     <h1>Je m'appelle Aurore et voici mon exercice 'CV' pour Studi</h1>
