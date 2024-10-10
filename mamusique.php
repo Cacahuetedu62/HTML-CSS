@@ -36,7 +36,12 @@ $musiques = [
 
 </div>
 
+<h3 class="citations">Le morceau que j'écoute en boucle en ce moment</h3>
 
+<div class="lecteur-spotify">
+<div class="lecteur"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6ZLGthToczpvnL5Eoy6yrY?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+</div>
+    
     <?php 
 require_once('Asset/templates/footer.php')
 ?>

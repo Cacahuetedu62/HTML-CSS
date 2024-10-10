@@ -17,10 +17,34 @@ require_once('Asset/templates/header.php')
     </a></svg>Le repo de ce site</button>
 </section>
 
-<h3>Je ne sais pas quoi mettre ici</h3>
+<h3>Les Languages de ce stite</h3>
 
-<section class="titre_instructions">Blablablablablablabla</section>
-
+<ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div>Html</div>
+    </div>
+    <span class="badge">80%</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div>CSS</div>
+    </div>
+    <span class="badge">18%</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div>Javascript</div>
+    </div>
+    <span class="badge">2%</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div>Php</div>
+    </div>
+    <span class="badge">0%</span>
+  </li>
+</ol>
 
 <?php 
 require_once('Asset/templates/footer.php')

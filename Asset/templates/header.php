@@ -1,9 +1,26 @@
+<?php
+ /*$mainMenu et $currentPage var_dump ok, quand foreach pour active, pas ok, à cause des class ???
+
+$mainMenu = [
+    'index.php' => 'Acceuil',
+    'mecontacter.php' => 'Me contacter',
+    'quisuisje.php' => 'Qui suis-je ?',
+    'GitHub.php' => "Mon GitHub",
+    'portfolio.php' => "Mon portfolio",
+    'mamusique.php' => "Ma musique",
+    ];
+
+$currentPage = basename($_SERVER['SCRIPT_NAME']);
+
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+    <meta name="description" content="Ceci est un test de méta description car un extrait efficace peut convaincre des personnes de cliquer sur les liens. "> 
     <title>Ma première page Web</title>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>    
@@ -18,15 +35,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
 
 
+
+
 </head>
         <header>
             <nav>
-                <ul>
+                <ul >
+
                 <li><a href="mecontacter.php">Me contacter</a></li>
-                <li><a href="quisuisje.php">Qui suis-je ?</a></li>
-                <li><a href="GitHub.php">Mon GitHub </a></li>
-                <li><a href="portfolio.php">Mon portfolio</a></li>
-                <li><a href="mamusique.php">Ma musique</a></li>
+                <li><a href="quisuisje.php">Qui suis-je ?</a></li>
+                <li><a href="GitHub.php">Mon GitHub </a></li>
+                <li><a href="portfolio.php">Mon portfolio</a></li>
+                <li><a href="mamusique.php" >Ma musique</a></li>
+
+
 
                 </ul>
               </nav>
